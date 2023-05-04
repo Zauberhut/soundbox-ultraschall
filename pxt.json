@@ -1,0 +1,31 @@
+{
+    "name": "Soundbox Ultraschall",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "informatiktheater": "github:mint-n-pepper/Informatiktheater#e4f410a6579a034f32b989a37ae1bf944f9172f1",
+        "dfplayermini": "github:51bit/dfplayermini#v0.1.6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v4.0.24",
+        "tag": "v4.0.24",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/f349eef6043c89d6bb481cb03eb26a2614e97ab7",
+        "target": "4.0.24",
+        "pxt": "7.0.20",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
